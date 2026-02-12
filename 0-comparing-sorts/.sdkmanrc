@@ -1,0 +1,7 @@
+# SDKMAN configuration file
+# This file specifies the Java and Gradle versions for this project
+# Run 'sdk env install' to install the specified versions
+# Run 'sdk env' to activate them in your current shell
+
+java=21.0.1-tem
+gradle=8.5
