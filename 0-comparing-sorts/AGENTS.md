@@ -103,6 +103,7 @@
   - Responsive design with gradient styling
   - Detailed metrics cards with complexity badges
   - Comparison tables with highlights
+  - Bug fix: Corrected data mapping to JavaScript arrays for chart rendering
 - Large array support (tested up to 10 million elements):
   - Automatic Bubble Sort skip for arrays > 100,000 elements
   - Memory-efficient handling of large datasets

@@ -69,16 +69,16 @@ public class HtmlReportGenerator {
         }
         
         return String.format(HTML_TEMPLATE,
-            timestamp,
-            arraySize,
-            metricsData.toString(),
-            algorithmNames.toString(),
-            timeData.toString(),
-            comparisonsData.toString(),
-            swapsData.toString(),
-            spaceData.toString(),
-            throughputData.toString(),
-            generateComparisonTable(metrics)
+            timestamp,                          // %s - timestamp in info bar
+            arraySize,                          // %,d - array size in info bar
+            metricsData.toString(),             // %s - metrics cards HTML
+            generateComparisonTable(metrics),   // %s - comparison table HTML
+            algorithmNames.toString(),          // %s - algorithms array for charts
+            timeData.toString(),                // %s - time data array
+            comparisonsData.toString(),         // %s - comparisons data array
+            swapsData.toString(),               // %s - swaps data array
+            spaceData.toString(),               // %s - space data array
+            throughputData.toString()           // %s - throughput data array
         );
     }
     
